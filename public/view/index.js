@@ -1,4 +1,4 @@
-import TwoPanelView from './ThreePanelView.js';
+import ThreePanelView from './ThreePanelView.js';
 
 module.exports = {
 	ThreePanelView,
