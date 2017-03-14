@@ -18,7 +18,7 @@ export default class ThreePanelView extends React.Component {
    	// this is the state of the ThreePanelView component
    	// state is usually declares in constructure but we use this format thanks
    	// to babel-preset-stage-0  (look in package.json)
-   	state={
+   	state = {
    		leftPanelNum: 0,
    		rightPanelNum: 0,
    	}

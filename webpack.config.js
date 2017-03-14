@@ -1,16 +1,20 @@
+var path = require("path");
+
 var config = {
    entry: './main.js',
 	
    output: {
-      path:'/',
+      path: '/',
       filename: 'index.js',
    },
-	
+
    devServer: {
       inline: true,
-      port: 8080
+      port: 8080,
+      historyApiFallback: true,
    },
 	
+
    module: {
       loaders: [
          {
@@ -24,6 +28,7 @@ var config = {
          }
       ]
    }
+   
 }
 
 module.exports = config;
